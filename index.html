@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -127,7 +126,6 @@
     }
 
     /* BOTONES DE REDES */
-
     .link-card {
       min-height: 68px;
       margin: 11px 0;
@@ -195,7 +193,6 @@
     }
 
     /* BOTÓN PRINCIPAL */
-
     .main-button {
       min-height: 62px;
       margin-top: 4px;
@@ -246,7 +243,6 @@
     }
 
     /* RESPONSIVE */
-
     @media (max-width: 380px) {
       body {
         padding: 14px 10px;
@@ -278,7 +274,7 @@
 
     <header>
 
-      <!-- LOGO: debe estar en la misma carpeta -->
+      <!-- LOGO -->
       <div class="logo-wrap">
         <img
           class="logo"
@@ -297,7 +293,6 @@
     </header>
 
     <!-- PLATAFORMA -->
-
     <section aria-labelledby="platform-title">
 
       <h2 class="section-label" id="platform-title">
@@ -334,7 +329,6 @@
     </section>
 
     <!-- REDES SOCIALES -->
-
     <section aria-labelledby="social-title">
 
       <h2 class="section-label" id="social-title">
@@ -342,7 +336,6 @@
       </h2>
 
       <!-- INSTAGRAM -->
-
       <a
         class="link-card"
         id="instagram-link"
@@ -376,7 +369,6 @@
       </a>
 
       <!-- FACEBOOK -->
-
       <a
         class="link-card"
         id="facebook-link"
@@ -406,30 +398,29 @@
 
       </a>
 
-      <!-- TIKTOK -->
-
+      <!-- CORREO ELECTRÓNICO -->
       <a
         class="link-card"
-        id="tiktok-link"
-        href="#"
-        target="_blank"
-        rel="noopener noreferrer"
+        id="email-link"
+        href="mailto:worklink.sv@gmail.com"
       >
 
         <span class="icon-box" aria-hidden="true">
 
-          <svg viewBox="0 0 24 24" fill="currentColor">
+          <svg viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2">
 
-            <path d="M19.6 8.2a7.1 7.1 0 0 1-4.3-1.4v8.1a5.7 5.7 0 1 1-5.7-5.7c.4 0 .8 0 1.1.1v3a2.8 2.8 0 1 0 1.7 2.6V2.5h3a4.2 4.2 0 0 0 4.2 4.2v1.5z"></path>
+            <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+            <path d="m3 7 9 6 9-6"></path>
 
           </svg>
 
         </span>
 
         <span class="link-copy">
-          <span class="link-title">TikTok</span>
+          <span class="link-title">Correo electrónico</span>
           <span class="link-description">
-            Contenido y novedades
+            worklink.sv@gmail.com
           </span>
         </span>
 
@@ -446,7 +437,6 @@
   </main>
 
   <!-- CONFIGURACIÓN DE ENLACES -->
-
   <script>
 
     const ENLACES = {
@@ -457,7 +447,7 @@
 
       facebook: "https://www.facebook.com/TU_PAGINA",
 
-      tiktok: "https://www.tiktok.com/@TU_USUARIO"
+      correo: "mailto:worklink.sv@gmail.com"
 
     };
 
@@ -470,8 +460,8 @@
     document.getElementById("facebook-link").href =
       ENLACES.facebook;
 
-    document.getElementById("tiktok-link").href =
-      ENLACES.tiktok;
+    document.getElementById("email-link").href =
+      ENLACES.correo;
 
   </script>
 
